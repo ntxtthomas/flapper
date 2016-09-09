@@ -1,4 +1,4 @@
-var app = angular.module('flapperNews')
+var app = angular.module('flapperNews', ['ui.router', 'templates']);
 
 app.controller('MainCtrl', [
 		'$scope', 

@@ -37,4 +37,6 @@ group :development do
 end
 gem 'hirb'
 gem 'angular-rails-templates'
+gem 'responders'
+gem 'angular_rails_csrf'
 
