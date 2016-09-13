@@ -22,6 +22,9 @@ app.controller('MainCtrl', [
 			};
 
 			$scope.incrementUpvotes = function(post){
-				post.upvotes += 1;
+				// post.upvotes += 1;
+				// And then in our controller, we simply replace incrementUpvotes() with this:
+				posts.upvote(post);
+				// OK?? Seems weird and unlcear
 			};
 		}]);
